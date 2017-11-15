@@ -51,7 +51,7 @@ foreach($custFile as $key => $value){
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "https://www.agentevolution.com/wp-json/tk/v1/orders?verbose=true",
+  CURLOPT_URL => "ENDPOINT",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
